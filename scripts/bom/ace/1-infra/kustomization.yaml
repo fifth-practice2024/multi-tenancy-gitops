@@ -14,6 +14,13 @@ resources:
 #- argocd/storage.yaml
 #- argocd/infraconfig.yaml
 #- argocd/machinesets.yaml
+
+#bridgette has added all of the ones below:
+argocd/namespace-b2bi-prod.yaml
+argocd/serviceaccounts-b2bi-prod.yaml
+argocd/sfg-b2bi-clusterwide.yaml
+argocd/daemonset-sync-global-pullsecret.yaml
+
 patches:
 - target:
     group: argoproj.io
